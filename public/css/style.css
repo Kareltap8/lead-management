@@ -102,19 +102,20 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+textarea{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
     font-size: 16px;
+    height: 100px;
+
 }
 
-textarea {
-    height: 100px;
+select{
+    width: 20%;
+    padding: 3px;
+    margin-bottom: 20px;
 }
 
 .form-group input {
@@ -148,11 +149,9 @@ th, td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
-}
-
-th {
     background-color: #f2f2f2;
 }
+
 
 .btn {
     padding: 8px 15px;
